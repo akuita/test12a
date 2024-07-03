@@ -11,11 +11,12 @@ const AttendanceSystem = () => {
   const { t } = useTranslation();
   const handleCheckIn = useCallback(async () => {
     try {
-      // Assuming employee_id is available, replace `1` with actual employee ID
-      const response = await attendanceService.checkIn(1);
-      alert(response.message); // Show a simple alert with the response message
+      // Assuming the employee ID is available in the context or via a prop
+      const employeeId = 123; // Replace with actual employee ID
+      const response = await attendanceService.checkIn(employeeId);
+      alert(`Checked in at: ${response.check_in_time}`);
     } catch (error) {
-      alert(error.message); // Show a simple alert with the error message
+      alert(`Error: ${error.message}`);
     }
   }, []);
 
@@ -35,9 +36,7 @@ const AttendanceSystem = () => {
           <span>08:30:20</span>
         </div>
         <div className={styles.actionButtons}>
-          <Button className={styles.checkInButton} onClick={handleCheckIn}>
-            {t('AttendanceSystem.checkIn')}
-          </Button>
+          <Button className={styles.checkInButton} onClick={handleCheckIn}>{t('AttendanceSystem.checkIn')}</Button>
           <button className={styles.checkedOutButton}>{t('AttendanceSystem.checkedOut')}</button>
         </div>
       </main>
