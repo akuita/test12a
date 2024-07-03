@@ -1,0 +1,22 @@
+{
+  "UserInfo": {
+    "avatarAlt": "User Avatar",
+    "name": "{{name}}",
+    "role": "{{role}}"
+  },
+  "Header": {
+    "logoAlt": "Company Logo",
+    "navItemAlt": "Navigation Item",
+    "navItemTimeTracking": "Time tracking",
+    "navItemTimeSheet": "Time sheet",
+    "headerTitle": "Attendance System"
+  },
+  "AttendanceSystem": {
+    "headerTitle": "Attendance System",
+    "JackDaniel": "Jack Daniel",
+    "Developer": "Developer",
+    "currentDate": "{{date}}",
+    "checkIn": "Check in",
+    "checkedOut": "Checked out"
+  }
+}

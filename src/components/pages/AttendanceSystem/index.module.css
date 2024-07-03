@@ -1,0 +1,75 @@
+.attendanceSystem {
+  background-color: rgba(244, 244, 244, 1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(220, 220, 220, 0.25) 0 4px 21px;
+  border-radius: 16px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dateInfo {
+  background-color: rgba(231, 231, 231, 1);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currentTime {
+  padding-top: 42px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.checkInButton {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(61, 84, 249, 1);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 112px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.checkedOutButton {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(168, 168, 168, 1);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 112px;
+  height: 40px;
+  cursor: pointer;
+}
