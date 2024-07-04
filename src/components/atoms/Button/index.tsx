@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react'
-
 import clsx from 'clsx'
-
+import { useTranslation } from 'next-i18next';
 import styles from './index.module.css'
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -11,11 +10,12 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props: ButtonProps, ref) => {
   const { buttonType = 'primary', title, className, children, linkTo, ...rest } = props
+  const { t } = useTranslation();
 
   const component = useMemo(() => {
     let component = children
     if (typeof children === 'string' || title) {
-      component = <span>{children || title}</span>
+      component = <span>{t(children || title)}</span>
     }
 
     if (linkTo) {
@@ -26,7 +26,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>((props: ButtonPr
       )
     }
     return component
-  }, [linkTo, children, title])
+  }, [linkTo, children, title, t])
 
   return (
     <button ref={ref} className={clsx(className, styles.button, styles[buttonType])} {...rest}>
