@@ -23,5 +23,23 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "AttendanceSystem": {
+    "employee_info": "{{name}} - {{role}}",
+    "calendar": "Calendar",
+    "date": "{{date}}",
+    "time": "{{time}}",
+    "check_in": "Check in",
+    "checked_out": "Checked out"
+  },
+  "shared_components": {
+    "Card": {},
+    "Label": {},
+    "Title": {},
+    "TimeDisplay": {},
+    "Button": {
+      "check_in": "Check in",
+      "checked_out": "Checked out"
+    }
   }
 }
