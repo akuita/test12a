@@ -1,5 +1,5 @@
 .attendanceSystem {
-  background-color: rgba(244, 244, 244, 1);
+  background-color: var(--color-background);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@
 
 .currentTime {
   padding-top: 42px;
-  color: rgba(51, 51, 51, 1);
+  color: var(--color-text-primary);
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -40,16 +40,16 @@
 
 .actionButtons {
   display: flex;
-  gap: 16px;
-  margin-top: 16px;
+  gap: var(--spacing-medium);
+  margin-top: var(--spacing-small);
 }
 
 .checkInButton {
   align-items: center;
   justify-content: center;
-  background-color: rgba(61, 84, 249, 1);
-  border-radius: 8px;
-  color: rgba(255, 255, 255, 1);
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+  color: var(--color-text-on-primary);
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -62,9 +62,9 @@
 .checkedOutButton {
   align-items: center;
   justify-content: center;
-  background-color: rgba(168, 168, 168, 1);
-  border-radius: 8px;
-  color: rgba(255, 255, 255, 1);
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
+  color: var(--color-text-on-secondary);
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;

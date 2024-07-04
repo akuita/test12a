@@ -11,12 +11,24 @@
     "navItemTimeSheet": "Time sheet",
     "headerTitle": "Attendance System"
   },
+  "Footer": {
+    "content": "Footer content here"
+  },
+  "Button": {
+    "default": "Click me"
+  },
+  "Navigation": {
+    "logoutAlt": "Logout"
+  },
   "AttendanceSystem": {
     "headerTitle": "Attendance System",
     "JackDaniel": "Jack Daniel",
     "Developer": "Developer",
     "currentDate": "{{date}}",
     "checkIn": "Check in",
-    "checkedOut": "Checked out"
+    "checkedOut": "Checked out",
+    "calendarAlt": "Calendar",
+    "currentTime": "Current Time: {{time}}",
+    "userInfo": "{{name}} - {{role}}"
   }
 }
