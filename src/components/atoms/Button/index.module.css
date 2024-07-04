@@ -1,4 +1,21 @@
 @layer button {
+  /* Custom styles for AttendanceSystem page buttons */
+  .attendanceSystemButton {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    margin-right: 8px; /* Adjust spacing between buttons */
+  }
+
+  .attendanceSystemButtonCheckIn {
+    color: #fff;
+    background-color: rgba(61, 84, 249, 1);
+  }
+
+  /* Existing styles below */
   .link_tag {
     color: inherit;
     text-decoration: none;
