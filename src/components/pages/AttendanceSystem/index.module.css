@@ -1,0 +1,50 @@
+.pageContainer {
+  background-color: rgba(244, 244, 244, 1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader {
+  background-color: rgba(231, 231, 231, 1);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBody {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.checkInButton {
+  background-color: rgba(61, 84, 249, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
+
+.checkedOutButton {
+  background-color: rgba(168, 168, 168, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
