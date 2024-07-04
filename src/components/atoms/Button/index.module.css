@@ -1,4 +1,13 @@
 @layer button {
+  .attendanceButton {
+    border-radius: 8px;
+    width: 112px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
   .link_tag {
     color: inherit;
     text-decoration: none;

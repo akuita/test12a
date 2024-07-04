@@ -1,0 +1,70 @@
+.pageContainer {
+  background-color: rgba(244, 244, 244, 1);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgba(231, 231, 231, 1);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}
+
+.userName {
+  color: rgba(168, 168, 168, 1);
+  margin-left: 4px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.dateInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timeDisplay {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.checkInButton {
+  background-color: rgba(61, 84, 249, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
+
+.checkedOutButton {
+  background-color: rgba(168, 168, 168, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  width: 112px;
+  height: 40px;
+}
